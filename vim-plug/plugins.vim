@@ -20,6 +20,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'https://github.com/tomasr/molokai'
 
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
+
 call plug#end()
 set number
 set relativenumber
